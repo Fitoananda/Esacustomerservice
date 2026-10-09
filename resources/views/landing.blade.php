@@ -69,10 +69,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                    <i class="fas fa-cog text-blue-600 text-3xl mr-3"></i>
-                    <div>
-                        <h1 class="text-2xl font-bold gradient-text">CS ESABUMINDO</h1>
-                    </div>
+                    <img src="{{ asset('images/Logo Perusahaan.svg') }}" alt="Logo PT. ESABUMINDO" class="h-12 w-auto">
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="/login" onclick="console.log('Login clicked'); return true;" class="text-gray-700 hover:text-purple-600 px-4 py-2 rounded-lg font-medium transition">
@@ -131,7 +128,7 @@
                             <div class="bg-gray-50 p-4 rounded-lg">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="text-sm text-gray-600">Respon Time</span>
-                                    <span class="text-sm font-bold text-purple-600">2 Jam</span>
+                                    <span class="text-sm font-bold text-blue-700">2 Jam</span>
                                 </div>
                                 <div class="w-full bg-gray-200 rounded-full h-2">
                                     <div class="bg-gradient-to-r from-blue-600 to-cyan-600 h-2 rounded-full" style="width: 85%"></div>
