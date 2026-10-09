@@ -14,7 +14,13 @@
         }
         
         .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+        }
+
+        .hero-bg {
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                url("{{ asset('images/Foto Pabrik.png') }}") center / cover no-repeat;
         }
         
         .gradient-text {
@@ -63,10 +69,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                    <i class="fas fa-cog text-purple-600 text-3xl mr-3"></i>
+                    <i class="fas fa-cog text-blue-600 text-3xl mr-3"></i>
                     <div>
                         <h1 class="text-2xl font-bold gradient-text">CS ESABUMINDO</h1>
-                        <p class="text-xs text-gray-500">Customer Service Portal</p>
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">
@@ -82,7 +87,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="pt-32 pb-20 gradient-bg">
+    <section class="pt-32 pb-20 hero-bg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="text-white slide-in">
