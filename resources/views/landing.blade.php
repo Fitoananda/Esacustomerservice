@@ -72,7 +72,7 @@
                     <img src="{{ asset('images/Logo Perusahaan.svg') }}" alt="Logo PT. ESABUMINDO" class="h-12 w-auto">
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="/login" onclick="console.log('Login clicked'); return true;" class="text-gray-700 hover:text-purple-600 px-4 py-2 rounded-lg font-medium transition">
+                    <a href="/login" onclick="console.log('Login clicked'); return true;" class="text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition">
                         <i class="fas fa-sign-in-alt mr-2"></i>Masuk
                     </a>
                     <a href="/register" onclick="console.log('Register clicked'); return true;" class="gradient-bg text-white px-6 py-2 rounded-lg font-medium hover:opacity-90 transition shadow-md">
@@ -99,7 +99,7 @@
                         <a href="{{ route('register') }}" class="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-xl">
                             Mulai Sekarang <i class="fas fa-arrow-right ml-2"></i>
                         </a>
-                        <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition">
+                        <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">
                             Pelajari Lebih Lanjut
                         </a>
                     </div>
