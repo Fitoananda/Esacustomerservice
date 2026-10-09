@@ -45,8 +45,12 @@
                             <i class="fas fa-lock text-gray-400"></i>
                         </div>
                         <input type="password" name="password" 
-                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('password') border-red-500 @enderror"
+                            class="w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('password') border-red-500 @enderror"
                             placeholder="Masukkan password" required>
+                        <button type="button" data-password-toggle aria-label="Tampilkan password" aria-pressed="false"
+                            class="absolute inset-y-0 right-0 px-3 flex items-center text-gray-500 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 rounded-r-lg">
+                            <i class="fas fa-eye" aria-hidden="true"></i>
+                        </button>
                     </div>
                     @error('password')
                         <p class="text-red-500 text-sm mt-1">{{ $message }}</p>

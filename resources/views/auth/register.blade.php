@@ -102,9 +102,15 @@
                     <!-- Password -->
                     <div>
                         <label class="block text-gray-700 font-medium mb-2">Password <span class="text-red-500">*</span></label>
-                        <input type="password" name="password" 
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('password') border-red-500 @enderror"
-                            placeholder="Min. 8 karakter" required>
+                        <div class="relative">
+                            <input type="password" name="password"
+                                class="w-full px-4 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('password') border-red-500 @enderror"
+                                placeholder="Min. 8 karakter" required>
+                            <button type="button" data-password-toggle aria-label="Tampilkan password" aria-pressed="false"
+                                class="absolute inset-y-0 right-0 px-3 flex items-center text-gray-500 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 rounded-r-lg">
+                                <i class="fas fa-eye" aria-hidden="true"></i>
+                            </button>
+                        </div>
                         @error('password')
                             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                         @enderror
@@ -113,9 +119,15 @@
                     <!-- Confirm Password -->
                     <div>
                         <label class="block text-gray-700 font-medium mb-2">Konfirmasi Password <span class="text-red-500">*</span></label>
-                        <input type="password" name="password_confirmation" 
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                            placeholder="Ulangi password" required>
+                        <div class="relative">
+                            <input type="password" name="password_confirmation"
+                                class="w-full px-4 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                placeholder="Ulangi password" required>
+                            <button type="button" data-password-toggle aria-label="Tampilkan password" aria-pressed="false"
+                                class="absolute inset-y-0 right-0 px-3 flex items-center text-gray-500 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600 rounded-r-lg">
+                                <i class="fas fa-eye" aria-hidden="true"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
 

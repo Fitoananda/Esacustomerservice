@@ -43,6 +43,18 @@
                 setTimeout(() => flashMessage.remove(), 500);
             }, 3000);
         }
+
+        document.querySelectorAll('[data-password-toggle]').forEach((toggle) => {
+            toggle.addEventListener('click', () => {
+                const passwordInput = toggle.parentElement.querySelector('input');
+                const isVisible = passwordInput.type === 'text';
+
+                passwordInput.type = isVisible ? 'password' : 'text';
+                toggle.setAttribute('aria-label', isVisible ? 'Tampilkan password' : 'Sembunyikan password');
+                toggle.setAttribute('aria-pressed', String(!isVisible));
+                toggle.querySelector('i').className = isVisible ? 'fas fa-eye' : 'fas fa-eye-slash';
+            });
+        });
     </script>
 
     @stack('scripts')
