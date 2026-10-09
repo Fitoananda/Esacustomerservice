@@ -131,7 +131,7 @@
                                     <span class="text-sm font-bold text-blue-700">2 Jam</span>
                                 </div>
                                 <div class="w-full bg-gray-200 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-red-700 to-yellow-300 h-2 rounded-full" style="width: 85%"></div>
+                                    <div class="bg-gradient-to-r from-red-500 to-yellow-300 h-2 rounded-full" style="width: 85%"></div>
                                 </div>
                             </div>
                         </div>
