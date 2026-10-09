@@ -18,12 +18,12 @@
         <div id="sidebarBackdrop" class="fixed inset-0 bg-gray-900 bg-opacity-50 z-20 hidden lg:hidden transition-opacity cursor-pointer"></div>
 
         <!-- Sidebar -->
-        <aside id="sidebar" class="fixed inset-y-0 left-0 z-30 w-64 bg-gradient-to-b from-purple-600 to-purple-800 text-white transform -translate-x-full lg:relative lg:translate-x-0 transition-transform duration-300 ease-in-out flex-shrink-0">
+        <aside id="sidebar" class="fixed inset-y-0 left-0 z-30 w-64 bg-gradient-to-b from-indigo-600 to-indigo-800 text-white transform -translate-x-full lg:relative lg:translate-x-0 transition-transform duration-300 ease-in-out flex-shrink-0">
             <div class="p-6">
                 <div class="flex items-center mb-8">
                     <i class="fas fa-cog text-3xl mr-3"></i>
                     <div>
-                        <h1 class="text-xl font-bold">CS Portal</h1>
+                        <h1 class="text-xl font-bold">Customer Service</h1>
                         <p class="text-xs text-purple-200">User Dashboard</p>
                     </div>
                 </div>
