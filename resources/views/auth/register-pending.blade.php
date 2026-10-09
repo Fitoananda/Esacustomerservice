@@ -3,7 +3,7 @@
 @section('title', 'Pendaftaran Berhasil - Menunggu Verifikasi')
 
 @section('content')
-<div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+<div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
     <div class="max-w-lg w-full">
         <div class="bg-white rounded-2xl shadow-2xl p-8 text-center">
 
@@ -39,8 +39,8 @@
 
             {{-- Email Info --}}
             @if(session('registered_email'))
-            <div class="bg-purple-50 border border-purple-200 rounded-xl p-4 mb-6">
-                <p class="text-sm text-purple-700">
+            <div class="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-6">
+                <p class="text-sm text-blue-700">
                     <i class="fas fa-envelope mr-2"></i>
                     Akun terdaftar untuk: <strong>{{ session('registered_email') }}</strong>
                 </p>
@@ -74,14 +74,14 @@
 
             {{-- Contact Info --}}
             <div class="bg-gray-50 rounded-xl p-4 mb-6 text-sm text-gray-600">
-                <i class="fas fa-headset text-purple-500 mr-2"></i>
+                <i class="fas fa-headset text-blue-600 mr-2"></i>
                 Butuh bantuan? Hubungi administrator IT di departemen Anda atau melalui email resmi perusahaan.
             </div>
 
             {{-- Actions --}}
             <div class="space-y-3">
                 <a href="{{ route('login') }}" 
-                   class="block w-full bg-gradient-to-r from-purple-600 to-purple-700 text-white py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-purple-800 transition shadow-md">
+                   class="block w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition shadow-md">
                     <i class="fas fa-sign-in-alt mr-2"></i>Cek Status & Login
                 </a>
                 <a href="{{ route('landing') }}" 

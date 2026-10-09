@@ -3,14 +3,14 @@
 @section('title', 'Login')
 
 @section('content')
-<div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+<div class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);">
     <div class="max-w-md w-full">
         <div class="bg-white rounded-2xl shadow-2xl p-8">
             <!-- Header -->
             <div class="text-center mb-8">
                 <div class="flex justify-center mb-4">
-                    <div class="bg-purple-100 p-4 rounded-full">
-                        <i class="fas fa-user-circle text-purple-600 text-4xl"></i>
+                    <div class="bg-blue-100 p-4 rounded-full">
+                        <i class="fas fa-user-circle text-blue-700 text-4xl"></i>
                     </div>
                 </div>
                 <h2 class="text-3xl font-bold text-gray-800">Selamat Datang!</h2>
@@ -29,7 +29,7 @@
                             <i class="fas fa-envelope text-gray-400"></i>
                         </div>
                         <input type="email" name="email" value="{{ old('email') }}" 
-                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent @error('email') border-red-500 @enderror"
+                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('email') border-red-500 @enderror"
                             placeholder="email@example.com" required autofocus>
                     </div>
                     @error('email')
@@ -45,7 +45,7 @@
                             <i class="fas fa-lock text-gray-400"></i>
                         </div>
                         <input type="password" name="password" 
-                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent @error('password') border-red-500 @enderror"
+                            class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent @error('password') border-red-500 @enderror"
                             placeholder="Masukkan password" required>
                     </div>
                     @error('password')
@@ -56,7 +56,7 @@
                 <!-- Remember Me -->
                 <div class="flex items-center justify-between mb-6">
                     <label class="flex items-center">
-                        <input type="checkbox" name="remember" class="rounded border-gray-300 text-purple-600 focus:ring-purple-500">
+                        <input type="checkbox" name="remember" class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
                         <span class="ml-2 text-sm text-gray-600">Ingat saya</span>
                     </label>
                 </div>
@@ -70,7 +70,7 @@
                 </div>
 
                 <!-- Submit Button -->
-                <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-purple-700 text-white py-3 rounded-lg font-semibold hover:from-purple-700 hover:to-purple-800 transition shadow-lg">
+                <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-blue-800 transition shadow-lg">
                     <i class="fas fa-sign-in-alt mr-2"></i>Login
                 </button>
 
@@ -78,7 +78,7 @@
                 <div class="text-center mt-6">
                     <p class="text-gray-600">
                         Belum punya akun? 
-                        <a href="{{ route('register') }}" class="text-purple-600 font-semibold hover:text-purple-700">
+                        <a href="{{ route('register') }}" class="text-blue-700 font-semibold hover:text-blue-800">
                             Daftar Sekarang
                         </a>
                     </p>

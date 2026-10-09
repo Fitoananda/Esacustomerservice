@@ -99,7 +99,7 @@
                         Sistem layanan customer service terpadu untuk mengelola keluhan produk lem dengan respon cepat dan solusi profesional.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="{{ route('register') }}" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-xl">
+                        <a href="{{ route('register') }}" class="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition shadow-xl">
                             Mulai Sekarang <i class="fas fa-arrow-right ml-2"></i>
                         </a>
                         <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition">
@@ -122,10 +122,10 @@
                             <div class="bg-gray-50 p-4 rounded-lg">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="text-sm text-gray-600">Tingkat Kepuasan</span>
-                                    <span class="text-sm font-bold text-purple-600">98%</span>
+                                    <span class="text-sm font-bold text-blue-700">98%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-purple-600 to-pink-600 h-2 rounded-full" style="width: 98%"></div>
+                                    <div class="bg-gradient-to-r from-blue-800 to-sky-400 h-2 rounded-full" style="width: 98%"></div>
                                 </div>
                             </div>
                             <div class="bg-gray-50 p-4 rounded-lg">
@@ -351,7 +351,7 @@
             <p class="text-xl text-purple-100 mb-8">
                 Bergabunglah dengan ribuan pelanggan yang telah mempercayai layanan kami
             </p>
-            <a href="{{ route('register') }}" class="inline-block bg-white text-purple-600 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition shadow-2xl">
+            <a href="{{ route('register') }}" class="inline-block bg-white text-blue-700 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition shadow-2xl">
                 Daftar Sekarang Gratis <i class="fas fa-arrow-right ml-2"></i>
             </a>
         </div>
