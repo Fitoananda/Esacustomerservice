@@ -360,7 +360,7 @@
             <div class="grid md:grid-cols-4 gap-8">
                 <div>
                     <div class="flex items-center mb-4">
-                        <i class="fas fa-cog text-purple-400 text-2xl mr-2"></i>
+                        <i class="fas fa-cog text-blue-700 text-2xl mr-2"></i>
                         <h3 class="text-xl font-bold">CS ESABUMINDO</h3>
                     </div>
                     <p class="text-gray-400">Solusi terpadu untuk layanan customer service produk lem berkualitas.</p>
