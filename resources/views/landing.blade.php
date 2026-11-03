@@ -384,14 +384,14 @@
                 <div>
                     <h4 class="text-lg font-bold mb-4">Kontak</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><i class="fas fa-envelope mr-2"></i>cs@esabumindo.com</li>
+                        <li><i class="fas fa-envelope mr-2"></i>csesabumindo@gmail.com</li>
                         <li><i class="fas fa-phone mr-2"></i>(021) 1234-5678</li>
                         <li><i class="fas fa-map-marker-alt mr-2"></i>Jakarta, Indonesia</li>
                     </ul>
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 PT. ESABUMINDO. All rights reserved.</p>
+                <p>&copy; 2026 PT. ESABUMINDO. All rights reserved.</p>
             </div>
         </div>
     </footer>
